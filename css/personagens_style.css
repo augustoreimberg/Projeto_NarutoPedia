@@ -219,6 +219,7 @@ areaNav{
     color: #ffffff;
     font-family: "Ninja Naruto";
     font-size: 15px;
+    cursor: pointer;
 }
 #btnClose{
     width: 60px;
