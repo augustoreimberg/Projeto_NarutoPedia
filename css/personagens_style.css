@@ -231,6 +231,7 @@ areaNav{
     color: #ffffff;
     font-size: small;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /*rodapé*/
