@@ -1,0 +1,271 @@
+@import url('https://fonts.cdnfonts.com/css/ninja-naruto');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #181818;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width:600px) {
+    .titleN
+    {
+        font-size: 30px;
+    }
+}
+
+/*cabeçalho*/
+
+#banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #FF6800;
+    background: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#areaMenu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 25px;
+}
+
+#areaLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    font-weight: bold;
+    margin: 12px;
+}
+
+areaNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#link{
+    text-decoration: none;
+    font-weight: bold;
+    margin:12px;
+    color: #ffffff;
+}
+#link2{
+    text-decoration: none;
+    font-weight: bold;
+    margin:12px;
+    color: #ffffff;
+}
+
+#areaCont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.titleN{
+    font-weight: bold;
+    font-size: 55px;
+    color: #FF6800;
+    
+}
+
+/*conteudo*/
+#main{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+/*personagem*/
+.person{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+    margin: 12px;
+    padding: 12px;
+}
+
+.imgPerson{
+    width: 100%;
+    height: 127px;
+    border-radius: 10px;
+}
+
+.areaName{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name{
+    color: #ffffff ;
+    font-family: "Ninja Naruto";
+    padding: 10px 0 0 0;
+}
+
+/*modal*/
+.modal-content{
+    background-image: url("../img/pergaminho.jpg");
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 0 0;
+}
+
+.modal-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#modalTxt{
+    font-family: "Ninja Naruto";
+    color: #181818;
+}
+
+.infoModal1{
+    font-family:"ARIAL";
+    font-weight: bold;
+    color: #FF6800;
+}
+.infoModal2{
+    font-family:"ARIAL";
+    font-weight: bold;
+    color: #181818;
+}
+
+.btnOpen{
+    width: 60px;
+    height: 60px;
+    background: none;
+    border:0;
+    color: #ffffff;
+    font-family: "Ninja Naruto";
+    font-size: 15px;
+}
+#btnClose{
+    width: 60px;
+    height: 60px;
+    background: url("../img/kunaisfundo.png");
+    background-size: 60px;
+    background-position: center;
+    border:0;
+    color: #ffffff;
+    font-size: small;
+    font-weight: bold;
+}
+
+/*rodapé*/
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/banner.jpg");
+    background-position: 0px -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+footer ::before{
+    content:" ";
+    position: absolute;
+    top: 0;
+    left: 0 auto;
+    width: 250px;
+    height: 1px;
+    background-color: #FF6800;
+    text-decoration: none;
+}
+#linkR{
+    text-decoration: none;
+    color: #FF6800;
+}
+
+#copy{
+    margin: 6px;
+}
+#dev{
+    margin: 6px;
+}
